@@ -25,7 +25,7 @@ layout: home
           </div>
         </a>
       {% else %}
-      <a href="{{ post.url }}" class="{{ post.paddingtype }}">
+      <a href="{{site.baseurl}}/{{ post.url }}" class="{{ post.paddingtype }}">
       	<div class="post-card">
       		<img src="{{site.baseurl}}/assets/img/{{ post.image }}">
       		<div class="card-content">
