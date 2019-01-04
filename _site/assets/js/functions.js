@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $('.nav-icon').click(function(){
+        $('.menu').toggleClass('active');
+        $('.nav-icon').toggleClass('toggle');
+        $('.nav-fade').toggleClass('nav-fade-active');
+    })
+    $('body').on('click',function(event){
+        if(!$(event.target).is('.nav-icon')){
+          $('.menu').removeClass('active');
+          $('.nav-icon').removeClass('toggle');
+          $('.nav-fade').removeClass('nav-fade-active');
+        }
+     });
+});

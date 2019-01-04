@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>nav-white</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Interface-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="internal" transform="translate(-25.000000, -97.000000)" fill="#FFFFFF">
+            <g id="menu-closed">
+                <g id="nav-white" transform="translate(25.000000, 97.000000)">
+                    <rect id="Rectangle" x="0" y="0" width="20" height="1.77777778" rx="0.888888889"></rect>
+                    <rect id="Rectangle-Copy" x="0" y="7.11111111" width="20" height="1.77777778" rx="0.888888889"></rect>
+                    <rect id="Rectangle-Copy-2" x="0" y="14.2222222" width="20" height="1.77777778" rx="0.888888889"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

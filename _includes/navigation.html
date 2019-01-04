@@ -1,0 +1,17 @@
+
+{% for post in site.posts reversed %}
+  <ul>
+    {% if post.external_url %}
+      <a href="{{ post.external_url }}" target="_blank">
+      {% else %}
+      <a href="{{ post.url }}">
+      {% endif %}
+      <li><span>{{ post.menutitle }}</span></li>
+      {% if post.external_url %}
+        <img class="external-ico" src="{{site.baseurl}}/assets/img/external.svg">
+      {% else %}
+      {% endif %}
+      <li class="subitems">{{ post.menusubitems }}</li>
+    </a>
+  </ul>
+{% endfor %}

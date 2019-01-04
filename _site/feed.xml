@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-04T17:13:46-02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Design Hub</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Ferramentas</title><link href="http://localhost:4000/ferramentas" rel="alternate" type="text/html" title="Ferramentas" /><published>2018-12-02T17:31:15-02:00</published><updated>2018-12-02T17:31:15-02:00</updated><id>http://localhost:4000/ferramentas</id><content type="html" xml:base="http://localhost:4000/ferramentas">&lt;p&gt;Essas são as principais ferramentas do nosso dia a dia da equipe. Confira também nosso &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1-zkx4eawy1QNBzVyyCHCTqvFMlkes-DErpvdJ_8EHig/edit?usp=sharing&quot;&gt;repositório de senhas&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ferramentas-básicas&quot;&gt;Ferramentas básicas&lt;/h2&gt;
+
+&lt;h3 id=&quot;g-suite&quot;&gt;G Suite&lt;/h3&gt;
+
+&lt;p&gt;Usamos Gmail, Drive, Calendar, Hangouts e tudo mais que exista na G Suite, do Google. Todos os produtos são integrados e já com todos os contatos do QuintoAndar. Outras áreas do 5A (como operações e CX) costumam usar o Hangouts como ferramenta de comunicação.&lt;/p&gt;
+
+&lt;h3 id=&quot;slack&quot;&gt;&lt;a href=&quot;https://slack.com/&quot;&gt;Slack&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Nós de produto costumamos usar o Slack como ferramenta de comunicação interna. Lá, existem os canais dos projetos/squads e também outros para você conhecer o pessoal. Peça acesso em &lt;a href=&quot;http://quintoandar.slack.com&quot;&gt;http://quintoandar.slack.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;workplace&quot;&gt;&lt;a href=&quot;https://quintoandar.facebook.com/&quot;&gt;Workplace&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;É nosso “Facebook da firma”. Toda a interação entre colaboradores rola aqui - avisos gerais, apresentação de novos colaboradores, report de bugs, feedbacks de clientes, coisas engraçadas (ou não), etc.&lt;/p&gt;
+
+&lt;h2 id=&quot;sketch&quot;&gt;&lt;a href=&quot;https://www.sketchapp.com/&quot;&gt;Sketch&lt;/a&gt;&lt;/h2&gt;
+&lt;dl&gt;
+  &lt;dt&gt;Nossa ferramenta onipresente de design: criação de wireframes, fluxos, telas e tudo mais.&lt;/dt&gt;
+  &lt;dd&gt;👉🏻	Para aprender: &lt;a href=&quot;https://www.youtube.com/channel/UCZHkx_OyRXHb1D3XTqOidRw&quot;&gt;Sketch Together&lt;/a&gt; e &lt;a href=&quot;https://www.youtube.com/playlist?list=PLLnpHn493BHE6UIsdKYlS5zu-ZYvx22CS&quot;&gt;Sketch App Tutorials&lt;/a&gt;&lt;/dd&gt;
+  &lt;dd&gt;👉🏻	Para baixar resources: &lt;a href=&quot;https://www.sketchappsources.com/&quot;&gt;Sketch App Sources&lt;/a&gt;&lt;/dd&gt;
+  &lt;dd&gt;👉🏻	Para instalar plugins e muito mais: &lt;a href=&quot;https://sketchrunner.com/&quot;&gt;Sketch Runner&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h3 id=&quot;plugins-starter-pack&quot;&gt;Plugins Starter Pack&lt;/h3&gt;
+
+&lt;p&gt;Recomendamos alguns plugins para ajudar a deixar nosso fluxo mais rápido :)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/andrewfiorillo/sketch-palettes&quot;&gt;Sketch Palettes&lt;/a&gt;&lt;br /&gt;
+Para usar nossa paleta de cores no Sketch, o ideal é importar &lt;a href=&quot;https://drive.google.com/open?id=1LDntFXzEwuBfFL0msKp51_H2ODWEmK_p&quot;&gt;esse arquivo&lt;/a&gt; para o “Global Colors” do seu Sketch e você terá nossa paletinha linda pronta pra você usar sempre em qualquer arquivo.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kenmoore/sketch-relabel-button&quot;&gt;Sketch Relabel Button&lt;/a&gt;&lt;br /&gt;
+Trabalhar com botões e labels no Sketch e manter as margens padronizadas pode ser bem chatinho. Esse plugin nos ajuda a renomear esses elementos sem perder essas especificações. É só selecionar o grupo, e alterar o label com CMD+J e o botão vai estar lindo, redimensionado com o novo label. &lt;em&gt;Atenção: é obrigatório usar esse plugin para que componentes que estão na library do Cozy funcionem corretamente.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.invisionapp.com/craft&quot;&gt;Craft by Invision&lt;/a&gt;&lt;br /&gt;
+Plugin oficial do Invision para o Sketch, tem um monte de features interessantes como placeholder de dados, step and repeat mas a que mais utilizamos é o sync de telas no Invision diretamente do Sketch.&lt;/p&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;&lt;a href=&quot;https://www.goabstract.com/&quot;&gt;Abstract&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Conhecido como o “github dos designers”, nós usamos o Abstract para hospedar de maneira segura todos os nossos arquivos Sketch e para controlar alterações. Nosso Design System também está lá!&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;&lt;strong&gt;Não sabe por onde começar? Leia isso aqui:&lt;/strong&gt;&lt;/dt&gt;
+  &lt;dd&gt;👉🏻	&lt;a href=&quot;https://brasil.uxdesign.cc/abstract-app-e-o-workflow-definitivo-para-designers-e146d42a2498&quot;&gt;O workflow definitivo para designers: Abstract app&lt;/a&gt;&lt;/dd&gt;
+  &lt;dd&gt;👉🏻	&lt;a href=&quot;https://blog.prototypr.io/abstract-the-design-tool-we-deserve-6157bb94469e&quot;&gt;Abstract: The Design Tool We Deserve&lt;/a&gt;&lt;/dd&gt;
+  &lt;dd&gt;👉🏻	&lt;a href=&quot;http://hackingui.com/design/git-for-designers-abstract/&quot;&gt;Git for designers is here&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h3 id=&quot;nomenclatura-de-arquivos-sketch-no-abstract&quot;&gt;Nomenclatura de arquivos Sketch no Abstract&lt;/h3&gt;
+
+&lt;p&gt;Seguimos uma regrinha para nomear nossos arquivos Sketch que estão no Abstract:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/nomenclatura-sketch.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Veja aqui mais informações sobre &lt;a href=&quot;https://drive.google.com/a/quintoandar.com.br/open?id=13DV5MgpTLY7iCgEgbdMAJDDFxoUwQNnCwntYINCyQ6s&quot;&gt;como organizar seu projeto no Abstract&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;invision&quot;&gt;&lt;a href=&quot;https://www.invisionapp.com/&quot;&gt;Invision&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Nós temos apenas 1 conta &lt;em&gt;professional&lt;/em&gt; no InVision com o e-mail &lt;a href=&quot;mailto:ux@quintoandar.com.br&quot;&gt;ux@quintoandar.com.br&lt;/a&gt; (veja a senha &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1-zkx4eawy1QNBzVyyCHCTqvFMlkes-DErpvdJ_8EHig/edit?usp=sharing&quot;&gt;aqui&lt;/a&gt;). Isso significa que para criar protótipos ilimitados você irá precisar estar logado com essa conta.&lt;/p&gt;
+
+&lt;p&gt;Porém, quando for comentar em algum protótipo (em alguns squads é comum usar os comentários para feedback e correções) use um login pessoal (criado com seu e-mail QuintoAndar) para que os comentários fiquem identificados com seu nome (ao invés de termos várias pessoas chamadas “Design QuintoAndar” – o que deixa tudo muito confuso). Incentive as pessoas do seu squad a fazerem o mesmo :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/invision-flow.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Também seguimos alguns padrões de nomenclaturas de projetos no InVision, &lt;a href=&quot;https://docs.google.com/presentation/d/13DV5MgpTLY7iCgEgbdMAJDDFxoUwQNnCwntYINCyQ6s/edit#slide=id.g3b3d14a50b_0_30&quot;&gt;veja mais aqui&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;invision--craft&quot;&gt;&lt;a href=&quot;https://www.invisionapp.com/&quot;&gt;InVision&lt;/a&gt; + &lt;a href=&quot;https://www.invisionapp.com/craft&quot;&gt;Craft&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Ferramenta colaborativa para prototipação de telas. Utilizando o Craft (plugin) para subir suas telas os desenvolvedores também conseguem acessar as especificações de design pelo Inspect. Também é possível que alguns squads utilizem os comentários para feedback e validação. Confira algumas boas práticas abaixo.&lt;/p&gt;</content><author><name></name></author><summary type="html">Essas são as principais ferramentas do nosso dia a dia da equipe. Confira também nosso repositório de senhas</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/ferramentas.png" /></entry><entry><title type="html">Busque conhecimento</title><link href="http://localhost:4000/conhecimento" rel="alternate" type="text/html" title="Busque conhecimento" /><published>2018-12-02T17:31:15-02:00</published><updated>2018-12-02T17:31:15-02:00</updated><id>http://localhost:4000/conhecimento</id><content type="html" xml:base="http://localhost:4000/conhecimento">&lt;p&gt;Precisa de referências pra se inspirar? Alguma ferramenta nova para criar fluxos? Um livro pra se aprofundar sobre um tema novo? É bem provável que você ache o que está procurando em um desses compiladões:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://uxdesign.cc/ux-resources-tools-books-methods-events/home&quot;&gt;UX Methods, Tools, Books and more&lt;/a&gt; — from UX Collective&lt;br /&gt;
+&lt;a href=&quot;https://uxplanet.org/the-best-ux-ui-designer-tools-resources-blogs-books-collection-2d045592d7d7&quot;&gt;The Best UX/UI Designer Tools, Resources, Blogs &amp;amp; Books Collection&lt;/a&gt; — from UX Planet&lt;br /&gt;
+&lt;a href=&quot;http://www.designnotes.co/&quot;&gt;Design Notes&lt;/a&gt; - muito conteúdo show 👌&lt;/p&gt;
+
+&lt;p&gt;Outros links que a gente recomenda:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.designbetter.co/&quot;&gt;DesignBetter.Co&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.invisionapp.com/enterprise/design-genome&quot;&gt;The Design Genome Project&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Precisa de referências pra se inspirar? Alguma ferramenta nova para criar fluxos? Um livro pra se aprofundar sobre um tema novo? É bem provável que você ache o que está procurando em um desses compiladões:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/conhecimento.png" /></entry><entry><title type="html">Branding</title><link href="http://localhost:4000/branding" rel="alternate" type="text/html" title="Branding" /><published>2018-12-02T17:31:15-02:00</published><updated>2018-12-02T17:31:15-02:00</updated><id>http://localhost:4000/branding</id><content type="html" xml:base="http://localhost:4000/branding">&lt;p&gt;O branding do QuintoAndar está sob responsabilidade da equipe de marketing. Sempre que estiver em dúvida sobre algo, consulte o pessoal, tudo bem?&lt;/p&gt;
+
+&lt;p&gt;Alguns links importantes:&lt;br /&gt;
+&lt;a href=&quot;https://docs.google.com/presentation/d/1hlMK4lrxyGSEmsimM8AGXplaTcsLH9TTEvBAadjMRTQ/edit#slide=id.p&quot;&gt;Guia visual&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://docs.google.com/presentation/d/1w_L0ChJTnTa8_HTi81u1iviWyfC1jS862SuBIt7GNR8/edit#slide=id.g13be8aad9b_20_0&quot;&gt;Guia de tom de voz&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://drive.google.com/drive/folders/1Fmd67LNAPNK651CrYhbWgIEENTA5Pix2&quot;&gt;Repositório de ilustrações&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">O branding do QuintoAndar está sob responsabilidade da equipe de marketing. Sempre que estiver em dúvida sobre algo, consulte o pessoal, tudo bem?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/branding.png" /></entry><entry><title type="html">Medium: QuintoAndar Product Design Team</title><link href="http://localhost:4000/medium" rel="alternate" type="text/html" title="Medium: QuintoAndar Product Design Team" /><published>2018-12-02T17:31:15-02:00</published><updated>2018-12-02T17:31:15-02:00</updated><id>http://localhost:4000/medium</id><content type="html" xml:base="http://localhost:4000/medium"></content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/medium.png" /></entry><entry><title type="html">Cozy: nosso design system</title><link href="http://localhost:4000/cozy" rel="alternate" type="text/html" title="Cozy: nosso design system" /><published>2018-12-02T17:31:15-02:00</published><updated>2018-12-02T17:31:15-02:00</updated><id>http://localhost:4000/cozy</id><content type="html" xml:base="http://localhost:4000/cozy">&lt;p&gt;Da tipografia, grids, cores, ícones, componentes, convenções, tom de voz, som, documentação; um design system é essencial para criar uma experiência coerente e mais facilmente entendida pelos usuários, além de dar aos designers uma linguagem em comum para trabalhar.&lt;/p&gt;
+
+&lt;p&gt;Nosso Design System, carinhosamente batizado de Cozy, ainda está em fase de amadurecimento e alinhamento com os desenvolvedores. Recomendamos que, por enquanto, você &lt;a href=&quot;https://docs.google.com/document/d/1xIw-fHjQsZTwGGAhSRaqz6JePHDttXKCFilEa8dtNn0/edit#&quot;&gt;acompanhe os releases aqui&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Da tipografia, grids, cores, ícones, componentes, convenções, tom de voz, som, documentação; um design system é essencial para criar uma experiência coerente e mais facilmente entendida pelos usuários, além de dar aos designers uma linguagem em comum para trabalhar.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/cozy.png" /></entry><entry><title type="html">Cultura de Produto</title><link href="http://localhost:4000/cultura" rel="alternate" type="text/html" title="Cultura de Produto" /><published>2018-12-02T17:31:15-02:00</published><updated>2018-12-02T17:31:15-02:00</updated><id>http://localhost:4000/cultura</id><content type="html" xml:base="http://localhost:4000/cultura">&lt;p&gt;Nós seguimos um framework de organização de times que ficou mais difundido com esses dois vídeos do Spotify. Squad, tribo, guilda e chapter são termos recorrentes aqui. Se você não tem ideia do que estamos falando, confira aqui:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://vimeo.com/85490944&quot;&gt;Spotify Engineering Culture - part 1&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://vimeo.com/94950270&quot;&gt;Spotify Engineering Culture - part 2&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;product-weekly-sync&quot;&gt;Product Weekly Sync&lt;/h2&gt;
+&lt;p&gt;Semanalmente, a equipe de produto publica no Workplace o &lt;a href=&quot;https://docs.google.com/presentation/d/1udM4zXDdwQ4M1zkzvAL0gu1JJ6AB1H7ZA1V_sbPKMVs/edit#slide=id.g460b141d04_111_5&quot;&gt;Product Weekly Sync&lt;/a&gt;, um resumão de tudo que está rolando em todos os squads - features novas, acompanhamento de métricas, anúncios, help needed etc. É uma boa forma de se manter atualizado com tudo que está acontecendo em na área de produto. Eventualmente, designers também atualizam essa apresentação com as novidades que estão sendo trabalhadas.&lt;/p&gt;
+
+&lt;p&gt;Aproveite esse report também para espiar o que está rolando nos outros squads!&lt;/p&gt;
+
+&lt;h2 id=&quot;11s&quot;&gt;1:1s&lt;/h2&gt;
+&lt;p&gt;As 1:1 (leia-se one on one) são reuniões periódicas de feedback entre você e mais alguém. É o momento de alinhar expectativas, expor dúvidas, dividir problemas ou até mesmo pedir conselhos. Você já vai ser convidado para algumas delas (com o/a design lead da tribo e o/a PM do seu squad) mas você também pode “convocar” alguém para um 1:1 com você (algumas pessoas possuem encontros 1:1 de mentoria, por exemplo).&lt;/p&gt;
+
+&lt;p&gt;E mais uma vez: se algo estiver te incomodando ou for muito urgente, não espere uma 1:1 para botar pra fora!&lt;/p&gt;
+&lt;h2 id=&quot;townhall&quot;&gt;Townhall&lt;/h2&gt;
+&lt;p&gt;Reunião geral no maior estilo “assembléia” onde trazemos tudo que está “pegando fogo” nas últimas semanas. Geralmente é o momento onde operações se encontra com produto e onde conseguimos identificar gargalos, problemas, bugs e a maior incidência de reclamações dos usuários.&lt;/p&gt;
+
+&lt;p&gt;As reuniões de townhall hoje estão divididas entre pré contrato e pós contrato e é importante que você participe daquela onde seu squad se enquadra (ou mesma das duas). Você não será automaticamente convidado para os Townhalls, então para ter esse evento no seu calendário peça para alguém te convidar.&lt;/p&gt;</content><author><name></name></author><summary type="html">Nós seguimos um framework de organização de times que ficou mais difundido com esses dois vídeos do Spotify. Squad, tribo, guilda e chapter são termos recorrentes aqui. Se você não tem ideia do que estamos falando, confira aqui:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/cultura.png" /></entry><entry><title type="html">Equipe de design de produto no QuintoAndar</title><link href="http://localhost:4000/equipe" rel="alternate" type="text/html" title="Equipe de design de produto no QuintoAndar" /><published>2018-11-27T17:31:15-02:00</published><updated>2018-11-27T17:31:15-02:00</updated><id>http://localhost:4000/equipe</id><content type="html" xml:base="http://localhost:4000/equipe">&lt;h2 id=&quot;nossos-princípios-de-design&quot;&gt;Nossos princípios de design&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/12__ok0NCvqeg-khiD69lnztqA-nY4yIyyF_hpW59nz8/edit#slide=id.g2dea737d21_0_0&quot;&gt;Nossos princípios de design&lt;/a&gt; servem para para guiar nossas atitudes e decisões, sendo um “mindset compartilhado” entre todos os designers. Eles são um registro do que acreditamos e lutamos para manter no nosso dia a dia, permitem que o design no QuintoAndar possa escalar, reforçam a cultura da empresa e fundamentam nossos processos de trabalho.&lt;/p&gt;
+&lt;h2 id=&quot;nossos-rituais&quot;&gt;Nossos rituais&lt;/h2&gt;
+&lt;h3 id=&quot;design-mornings&quot;&gt;Design mornings&lt;/h3&gt;
+&lt;p&gt;Toda terça-feira de manhã temos um encontro de “sync” com toda equipe de design. Ele serve para alinhar as novidades da semana, contar o que tá pegando nos projetos e pedir ajuda quando necessário.&lt;/p&gt;
+&lt;h3 id=&quot;design-critique&quot;&gt;Design Critique&lt;/h3&gt;
+&lt;p&gt;Todas quartas e quintas um projeto ainda não terminado (“work in progress”) é apresentado para os outros designers do time para uma rodada de feedback, questionamentos e exploração de novas direções.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://brasil.uxdesign.cc/design-critique-o-segredo-para-seguran%C3%A7a-emocional-de-designers-uxconf-2018-cca461caea04&quot;&gt;A Lets escreveu um artigo&lt;/a&gt; contando mais sobre o que é design critique e o que buscamos com ele aqui no QuintoAndar, vale a pena a leitura :)&lt;/p&gt;
+&lt;h3 id=&quot;retrô&quot;&gt;Retrô&lt;/h3&gt;
+&lt;p&gt;Encontro mensal pra gente conversar sobre o que deu certo, o que deu errado e o que a gente espera mudar/fazer no próximo mês. Aproveitamos também a oportunidade para entender mais dos problemas dos outros, aconselhar e dividir o que quer que esteja no seu coração!
+Mas lembre-se: você não precisa esperar uma retrô para falar sobre algo que esteja te incomodando, ok?&lt;/p&gt;
+&lt;h3 id=&quot;design-day&quot;&gt;Design Day&lt;/h3&gt;
+&lt;p&gt;A cada quarter fazemos um evento interno para toda a empresa onde apresentamos 2 ou 3 talks sobre o que rolou de legal na equipe de design. Pode ser algum projeto finalizado, alguma competência nova que desenvolvemos, algum resultado de testes de usabilidade, algumas lições aprendidas… qualquer coisa! É nossa oportunidade de aproximar outras áreas da nossa equipe, aproximá-los dos nossos processos e também de dividir o conhecimento.&lt;/p&gt;
+&lt;h3 id=&quot;frentes-de-design&quot;&gt;Frentes de design&lt;/h3&gt;
+&lt;p&gt;Sempre existem projetos que precisam ser feitos por nós e para nós - ou seja, projetos relacionados à nossa equipe de design e não necessariamente às atividades do nosso squad. Geralmente eles giram em torno de tópicos que gostaríamos de aprender, processos que queremos melhorar, coisas que precisamos organizar…&lt;/p&gt;
+
+&lt;p&gt;Existem encontros periódicos para decidir quem faz o que (geralmente 1x por mês) e para apresentar os resultados do que foi desenvolvido no mês anterior.&lt;/p&gt;
+
+&lt;p&gt;Em breve você também terá um projetinho para chamar de seu! Por enquanto, dá uma olhada no que a gente vem trabalhando &lt;a href=&quot;https://docs.google.com/document/d/1huXp91wwuMx-33rSXKKi7IHWGIdkU4Se5SXe5YpeJiE/edit&quot;&gt;aqui&lt;/a&gt; e &lt;a href=&quot;https://drive.google.com/drive/u/1/folders/1KHF7jKKt79I-6-9qLzSZgKuiSyFitd3d&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Nossos princípios de design Nossos princípios de design servem para para guiar nossas atitudes e decisões, sendo um “mindset compartilhado” entre todos os designers. Eles são um registro do que acreditamos e lutamos para manter no nosso dia a dia, permitem que o design no QuintoAndar possa escalar, reforçam a cultura da empresa e fundamentam nossos processos de trabalho. Nossos rituais Design mornings Toda terça-feira de manhã temos um encontro de “sync” com toda equipe de design. Ele serve para alinhar as novidades da semana, contar o que tá pegando nos projetos e pedir ajuda quando necessário. Design Critique Todas quartas e quintas um projeto ainda não terminado (“work in progress”) é apresentado para os outros designers do time para uma rodada de feedback, questionamentos e exploração de novas direções.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/equipe.gif" /></entry><entry><title type="html">Pesquisa com usuário</title><link href="http://localhost:4000/pesquinta" rel="alternate" type="text/html" title="Pesquisa com usuário" /><published>2018-11-27T17:31:15-02:00</published><updated>2018-11-27T17:31:15-02:00</updated><id>http://localhost:4000/pesquinta</id><content type="html" xml:base="http://localhost:4000/pesquinta">&lt;p&gt;Toda quinta-feira algum designer do QuintoAndar está fazendo algum tipo de pesquisa com nossos usuários! Seja de guerrilha ou aqui dentro, o importante é manter esse dia para colher feedbacks e validar ideias.&lt;/p&gt;
+
+&lt;p&gt;Temos esse &lt;a href=&quot;https://docs.google.com/presentation/d/16InZosUQgvbENXzk03i3O7Vc_OBbX50aOSwiYk2SPUA/edit#slide=id.g3ee07029bf_0_0&quot;&gt;template para compilar os achados das pesquisas&lt;/a&gt; e compartilhar resultados com stakeholders e com o squad. Também compilamos todos os resultados de pesquisa no &lt;a href=&quot;https://sites.google.com/quintoandar.com.br/pesquinta&quot;&gt;site Pesquinta&lt;/a&gt;. Então, sempre que você tiver feito uma pesquisa utilize o template para os resultados e publique seus achados no Pesquinta :)&lt;/p&gt;</content><author><name></name></author><summary type="html">Toda quinta-feira algum designer do QuintoAndar está fazendo algum tipo de pesquisa com nossos usuários! Seja de guerrilha ou aqui dentro, o importante é manter esse dia para colher feedbacks e validar ideias.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/pesquinta.png" /></entry></feed>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="27px" viewBox="0 0 18 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="[Estudos]-Interface" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hub-home-menu-closed-2" transform="translate(-21.000000, -21.000000)" fill="#5063F0">
+            <g id="menu-closed">
+                <path d="M29.9998927,45.0278965 L38.4650391,47.9754643 C38.8729387,48.0802631 39.0949082,47.8397211 38.9609894,47.4374424 L30.2427486,21.301709 C30.1084202,20.8994303 29.8909556,20.8994303 29.7566272,21.301709 L21.0392055,47.4374424 C20.9048771,47.8397211 21.1268466,48.0802631 21.5351558,47.9754643 L29.9998927,45.0278965 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

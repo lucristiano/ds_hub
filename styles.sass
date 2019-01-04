@@ -1,0 +1,422 @@
+---
+---
+// general
+$font: Open Sans, sans-sefif
+
+// media querys
+$break-small: 700px
+$break-large: 1200px
+
+// colors
+$high-emphasys: rgba(4,11,56,0.87)
+$low-emphasys: rgba(4,11,56,0.57)
+$w-low-emphasys: rgba(255,255,255,0.54)
+$background: #F2F2F7
+$color-line: rgba(0,0,0,0.12)
+$main-blue: #5063F0
+$white: #FFFFFF
+$off-menu: #FAFAFA
+
+// spacing
+$sp-medium: 16px
+
+// sizes
+$title: 56px
+$headline: 40px
+$subheading: 24px
+$body1: 14px
+$body2: 16px
+$none: 0
+$max: 1100px
+$medium: 700px
+$small: 328px
+$responsive-padding: 20%
+
+// weights
+$medium-weight: 400
+
+// shadows
+$card-shadow: 6px 10px 9px 0px rgba(233, 233, 253, 0.72)
+$card-shadow-hover: none
+
+
+*
+	box-sizing: border-box
+
+body, html
+	font-family: $font
+	color: $high-emphasys
+	width: 100%
+	margin: 0
+
+body
+	background-color: $background
+	opacity: 0
+	transition: opacity 1s
+
+a
+	color: $main-blue
+	text-decoration: none
+	position: relative
+	text-decoration: none
+
+	&:before
+		content: ""
+		position: absolute
+		width: 100%
+		height: 2px
+		bottom: 0
+		left: 0
+		background-color: $main-blue
+		visibility: hidden
+		transform: scaleX(0)
+		transition: all 0.3s ease 0s
+
+	&:hover
+		color: $main-blue
+
+		&:before
+			visibility: visible
+			transform: scaleX(1)
+
+h1
+	font-size: $title
+	margin: $none
+
+	@media screen and (max-width: $break-small)
+		font-size: 32px
+
+h2
+	font-size: $headline
+	margin: $none
+	font-weight: $medium-weight
+	color: $high-emphasys
+
+	@media screen and (max-width: $break-small)
+		font-size: 24px
+
+h3
+	font-size: $subheading
+	margin: $none
+	font-weight: $medium-weight
+	margin-top: 8px
+	color: $high-emphasys
+
+	@media screen and (max-width: $break-small)
+		font-size: 20px
+p
+	font-size: $body2
+	color: $low-emphasys
+
+.container
+	width: 100%
+	max-width: $max
+	margin: 0 auto
+
+	@media screen and (max-width: $break-large)
+		padding-left: 84px
+		padding-right: 32px
+
+
+.container-header
+	padding: 4em 0 2em 0
+
+	a
+		margin-bottom: 1em
+		font-size: $body1
+		display: table
+
+	.equipe
+		display: none
+
+.container-cards
+	width: 100%
+	max-width: $max
+	margin: 0 auto
+	column-count: 3
+	column-gap: 24px
+
+	@media screen and (max-width: $break-large)
+		column-count: 2
+
+	@media screen and (max-width: $break-small)
+		column-count: 1
+
+	a
+		display: inline-block
+		width: 100%
+		margin: 16px 0
+		border-radius: 20px
+		box-shadow: $card-shadow
+		transition: .3s ease all
+		background-color: $white
+		overflow: hidden
+
+		&:before
+			display: none
+
+		&:hover
+			cursor: hands
+			box-shadow: $card-shadow-hover
+			pointer-events: auto
+			background-color: $background
+
+	.card-content		
+		h3
+			margin-top: 8px
+
+	.hero
+		padding: 0
+
+		.card-content
+			padding: 16px 24px
+
+		img
+			width: 100%
+			height: auto
+			margin: 0
+
+	.icon
+		padding: 24px
+
+.post-card
+	img
+		margin-bottom: $sp-medium
+		@media screen and (max-width: $break-large)
+			max-width: 100%
+
+.home
+	.container-footer
+		max-width: $max
+
+.container-footer
+	max-width: $medium
+	border-top: 1px solid rgba(0,0,0, .12)
+	padding: 2em 0
+	margin: 3em auto
+
+	@media screen and (max-width: $break-large)
+		max-width: $medium
+		margin-left: $responsive-padding
+
+	@media screen and (max-width: $break-small)
+		max-width: $small
+
+	a
+		color: $main-blue
+
+.container-content
+	p
+		font-size: $body2
+		line-height: 26px
+		color: $low-emphasys
+		margin-bottom: 2em
+
+	@media screen and (max-width: $break-small)
+		img
+			width: 100%
+			height: auto
+
+// menu
+
+nav
+	position: fixed
+	z-index: 11
+
+	img
+		display: block
+		margin: 0
+		padding: 21px 21px
+		transition: .3s ease all
+
+		&:hover
+			opacity: .6
+
+.nav-fade
+	background: rgba(0,0,0,0.5)
+	position: fixed
+	display: none
+	width: 100%
+	height: 100%
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	z-index: 10
+
+.nav-fade-active
+	display: block
+	transition: .5s
+	@media screen and (max-width: $break-small)
+		display: none
+
+.sidebar
+	background: $white
+	text-align: center
+	height: 100%
+	position: fixed
+	overflow: hidden
+
+.menu
+	position: fixed
+	z-index: -1
+	width: 300px
+	left: -300px
+	top: 0
+	text-align: center
+	background: $off-menu
+	height: 100%
+	transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1)
+	overflow-y: scroll
+
+	@media screen and (max-width: $break-small)
+		left: -100%
+		width: 100%
+
+	.menu-title
+		margin-bottom: 20px
+
+	a
+		padding: 20px 30px
+		display: block
+		position: relative
+
+		.external-ico
+			position: absolute
+			top: 0
+			right: 0
+
+		&:before
+			display: none
+
+		span
+			font-size: $body2
+			font-weight: 600
+	ul
+		list-style-type: none
+		text-align: left
+		margin: 0
+		padding: 0
+		transition: .3s ease all
+
+		&:hover
+			background: $main-blue
+
+			li
+				color: $w-low-emphasys
+
+			li.subitems
+					color: $w-low-emphasys
+
+			li span
+				color: $white
+
+		li 
+			font-size: $body1
+			color: $low-emphasys
+			line-height: 24px
+
+			span
+				font-size: 16px
+				font-weight: 600
+				color: $high-emphasys
+
+	&-title
+		a
+			text-decoration: none
+			display: block
+			text-align: left
+			color: $main-blue
+			font-size: $body1
+			margin-left: 30px
+			padding: 0
+
+			&:first-child
+				margin-top: 20px
+
+.active
+	left: 60px
+
+.nav-icon
+	top: 0
+	width: 40px
+	height: 40px
+	box-sizing: border-box
+	cursor: pointer
+	border: none
+	outline: none
+	background: none
+	transition: .3s ease all
+
+	&:hover
+		opacity: .3
+
+	span
+		display: block
+		padding: auto
+		width: 18px
+		height: 1px
+		background: black
+		position: absolute
+		left: 21px
+		transition: .3s
+
+		&:before
+			content: ''
+			position: absolute
+			top: -5px
+			left: 0
+			width: 100%
+			height: 1px
+			background: black
+			transition: .3s
+
+		&:after
+			content: ''
+			position: absolute
+			top: 5px
+			left: 0
+			width: 100%
+			height: 1px
+			background: black
+			transition: .3s
+
+	&.toggle span
+		background: transparent
+
+		&:before
+			top: 0
+			transform: rotate(45deg)
+
+		&:after
+			top: 0
+			transform: rotate(-45deg)
+
+
+.ico-container
+	display: flex
+	justify-content: space-between
+	margin-bottom: $sp-medium
+	align-items: center
+
+.post
+	background-color: $white
+
+	.container
+		max-width: 700px
+
+	.sidebar
+		background: $main-blue
+
+	.nav-icon
+		background: $main-blue
+		span
+			background: white
+
+			&:before
+				background: white
+
+			&:after
+				background: white
+		&.toggle span
+			background: transparent

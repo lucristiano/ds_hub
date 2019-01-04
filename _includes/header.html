@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport">
+    <title>Design Hub</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="{{site.baseurl}}/styles.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body id="{{ page.layout }}" class="{{ page.slug }} {{ page.layout }}" onload="document.body.style.opacity='1'">
+
+    <nav>
+      <div class="sidebar">
+          {% if page.layout == 'post' %}
+          <a href="{{ site.url }}"><img src="{{ site.url }}/assets/img/logowhite.svg"></a>
+          {% else %}
+        <a href="{{ site.url }}"><img src="{{ site.url }}/assets/img/logo.svg"></a>
+        {% endif %}
+        <button class="nav-icon"><span></span></button>
+      </div>
+      
+      <div class="menu">
+        <div class="menu-title">
+          <a href="{{ site.url }}"><span>Product Design</span></a>
+          <a href="{{ site.url }}">QuintoAndar</a>
+        </div>
+        {% include navigation.html %}
+      </div>
+    </nav>
+
+    <div class="nav-fade"><span></span></div>
