@@ -6,7 +6,7 @@ layout: home
 ---
 <div class="container">  
   <div class="container-header">
-    <h1>Product Design Team @ QuintoAndar</h1>
+    <h1>Product Design Team at QuintoAndar</h1>
     <h3>Nossos processos, dinâmicas de trabalho, ferramentas e links importantes reunidos num só lugar.</h3>
   </div>
   <div class="container-cards">
