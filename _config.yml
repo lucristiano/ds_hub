@@ -29,7 +29,11 @@ markdown: kramdown
 theme: minima
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 permalink: ds_hub/_site/:slug
+=======
+permalink: http://lucrs.com/ds_hub/:slug
+>>>>>>> parent of b6761dc... slug bug
 =======
 permalink: http://lucrs.com/ds_hub/:slug
 >>>>>>> parent of b6761dc... slug bug
