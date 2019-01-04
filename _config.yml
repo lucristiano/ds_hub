@@ -28,7 +28,11 @@ github_username:  jekyll
 markdown: kramdown
 theme: minima
 
+<<<<<<< HEAD
 permalink: ds_hub/_site/:slug
+=======
+permalink: http://lucrs.com/ds_hub/:slug
+>>>>>>> parent of b6761dc... slug bug
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
