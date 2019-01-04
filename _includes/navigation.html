@@ -4,7 +4,7 @@
     {% if post.external_url %}
       <a href="{{ post.external_url }}" target="_blank">
       {% else %}
-      <a href="{{ post.url }}">
+      <a href="{{site.baseurl}}{{ post.url }}">
       {% endif %}
       <li><span>{{ post.menutitle }}</span></li>
       {% if post.external_url %}
