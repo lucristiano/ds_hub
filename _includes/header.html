@@ -21,17 +21,17 @@
     <nav>
       <div class="sidebar">
           {% if page.layout == 'post' %}
-          <a href="{{ site.baseurl }}"><img src="{{ site.url }}/assets/img/logowhite.svg"></a>
+          <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/assets/img/logowhite.svg"></a>
           {% else %}
-        <a href="{{ site.baseurl }}"><img src="{{ site.url }}/assets/img/logo.svg"></a>
+        <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/assets/img/logo.svg"></a>
         {% endif %}
         <button class="nav-icon"><span></span></button>
       </div>
       
       <div class="menu">
         <div class="menu-title">
-          <a href="{{ site.url }}"><span>Product Design</span></a>
-          <a href="{{ site.url }}">QuintoAndar</a>
+          <a href="{{ site.baseurl }}"><span>Product Design</span></a>
+          <a href="{{ site.baseurl }}">QuintoAndar</a>
         </div>
         {% include navigation.html %}
       </div>
