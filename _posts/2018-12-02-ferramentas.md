@@ -58,7 +58,7 @@ Conhecido como o "github dos designers", nós usamos o Abstract para hospedar de
 
 Seguimos uma regrinha para nomear nossos arquivos Sketch que estão no Abstract:
 
-![](/assets/img/nomenclatura-sketch.png)
+![]({{ site.baseurl }}/assets/img/nomenclatura-sketch.png)
 
 Veja aqui mais informações sobre [como organizar seu projeto no Abstract](https://drive.google.com/a/quintoandar.com.br/open?id=13DV5MgpTLY7iCgEgbdMAJDDFxoUwQNnCwntYINCyQ6s).
 
@@ -69,7 +69,7 @@ Nós temos apenas 1 conta _professional_ no InVision com o e-mail <ux@quintoanda
 
 Porém, quando for comentar em algum protótipo (em alguns squads é comum usar os comentários para feedback e correções) use um login pessoal (criado com seu e-mail QuintoAndar) para que os comentários fiquem identificados com seu nome (ao invés de termos várias pessoas chamadas "Design QuintoAndar" – o que deixa tudo muito confuso). Incentive as pessoas do seu squad a fazerem o mesmo :)
 
-![](/assets/img/invision-flow.png)
+![]({{ site.baseurl }}/assets/img/invision-flow.png)
 
 Também seguimos alguns padrões de nomenclaturas de projetos no InVision, [veja mais aqui](https://docs.google.com/presentation/d/13DV5MgpTLY7iCgEgbdMAJDDFxoUwQNnCwntYINCyQ6s/edit#slide=id.g3b3d14a50b_0_30).
 
